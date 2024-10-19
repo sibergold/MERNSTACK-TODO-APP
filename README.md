@@ -20,9 +20,9 @@ Veriler mongodb ye kaydedilmiştir.
 
 ### BACKEND ROUTES
 
-POST /api/notes : Kayıt olmayı sağlar
+POST /api/notes : İstenilen notun kaydedilmesini sağlar.
 
-POST /api/notes/:id : Belirli id numaralı bir notu getirir
+GET /api/notes/ : Tüm notların görüntülenmesini sağlar.
 
 ### AÇIKLAMA
 
